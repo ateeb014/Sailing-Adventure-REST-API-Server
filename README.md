@@ -5,7 +5,7 @@ Imagine Sailing Adventure is a boat rental shop that needed a modern solution to
 
 # Prerequisites
 1.	Node.js and npm Installation: Verify that npm is already installed by running the command npm -v on the terminal. If npm is installed, then the version number will be displayed. Otherwise, install npm from the Nodejs.org site.
-2.	Project Initialization: Use the following command to initialize your project directory and create the package.json file. Use the -y option to accept the defaults.
+2.	Project Initialization: Use the following command to initialize the project directory and create the package.json file. Use the -y option to accept the defaults.
 •	 npm init -y 
 3.	MySQL Driver Installation:Install the MySQL driver using the following command:
 •	npm install mysql2
