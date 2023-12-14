@@ -1,7 +1,16 @@
 # Sailing-Adventure-REST-API-Server
 
 # Overview
-Imagine Sailing Adventure is a boat rental shop that needed a modern solution to manage information about sailors, boats, and reservations. The shop's management team has decided to switch from using spreadsheets to a web-based database management system. This project aims to develop a Node.js server using MySQL to handle CRUD operations for sailors, boats, and reservations. Seamlessly interact with the API using POSTMAN
+Imagine Sailing Adventure is a boat rental shop that needed a modern solution to manage information about sailors, boats, and reservations. The shop's management team has decided to switch from using spreadsheets to a web-based database management system. This project aims to develop a Node.js server using MySQL to handle CRUD operations for sailors, boats, and reservations. Seamlessly interact with the API using POSTMAN.
+
+# Prerequisites
+1.	Node.js and npm Installation: Verify that npm is already installed by running the command npm -v on the terminal. If npm is installed, then the version number will be displayed. Otherwise, install npm from the Nodejs.org site.
+2.	Project Initialization: Use the following command to initialize your project directory and create the package.json file. Use the -y option to accept the defaults.
+•	 npm init -y 
+3.	MySQL Driver Installation:Install the MySQL driver using the following command:
+•	npm install mysql2
+
+
 
 # Features
 1. Database Setup: The Node.js server code creates the MySQL database and tables on the first run, ensuring a seamless setup process.
